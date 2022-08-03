@@ -2,6 +2,7 @@
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -10,9 +11,19 @@
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
+    
+}
+.title{
+    color: black;
+}
+.navbar-default{
+    background-color: #1abc9c;
+}
+.navbar-nav  li a{
+    color: blue !important;
 }
 .navbar-nav  li a:hover {
-    color: #1abc9c !important;
+    color: #f12a48 !important;
 }
 
 .footer-padding {
@@ -32,4 +43,16 @@
 	margin-top: 25px;
 	font-size: 12px;
   color: #fff;
+}
+h3{
+    color: black(0, 40, 219);
+}
+p{
+    font-size: 18px;
+    color: black;
+}
+.Nav-li{
+    font-size: 18px;
+    color: black;
+    margin-top: 7px;
 }
